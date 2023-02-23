@@ -8,6 +8,7 @@ import SignUpSuccessful from './Pages/SignUp/SignUpSuccessful';
 import VerifyOTP from './Pages/SignUp/VerifyOTP';
 import ForgotPassword from './Pages/Login/ForgotPassword';
 import ChangePassword from './Pages/Login/ChangePassword';
+import CliqueManagement from './CliqueManagement/CliqueManagement';
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
           <Route path="/SignUpSuccessful" component={SignUpSuccessful} /> 
           <Route path="/VerifyOTP" component={VerifyOTP} /> 
           <Route path="/ForgotPassword" component={ForgotPassword} /> 
-          <Route path="/ChangePassword" component={ChangePassword} /> 
+          <Route path="/ChangePassword" component={ChangePassword} />
+          <Route path="/CliqueManagement" component={CliqueManagement} />  
           
 
           

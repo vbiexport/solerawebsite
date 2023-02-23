@@ -74,7 +74,9 @@ function Login() {
               </div>
               <br />
               <div>
-                <button className="Log__Btn">Login</button>
+                <Link to="/CliqueManagement" className="Clique__Link">
+                  <button className="Log__Btn">Login</button>
+                </Link>
               </div>
               <br />
               <div className="Clique__Qes">
