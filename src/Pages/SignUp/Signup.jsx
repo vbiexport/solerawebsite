@@ -41,6 +41,9 @@ function Signup() {
                   <label className="frol" for="floatingInput">
                     Phone Number
                   </label>
+                  <div className="valid-feedback Valid__Note">
+                    Enter a valid Phone number!
+                  </div>
                 </div>
                 <br />
 
@@ -56,6 +59,9 @@ function Signup() {
                       <label className="frol" for="floatingPassword">
                         Password
                       </label>
+                      <div className="valid-feedback Valid__Note">
+                        Looks good!
+                      </div>
                     </div>
                   </div>
                   <div className="col-md">
@@ -69,6 +75,12 @@ function Signup() {
                       <label className="frol" for="floatingPassword">
                         Confirm Password
                       </label>
+                      <div className="valid-feedback Valid__Note">
+                        Looks good!
+                      </div>
+                      <div className="valid-feedback Valid__Note">
+                        Password does not match!
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -105,6 +117,9 @@ function Signup() {
                 <label class="form-check-label" for="exampleCheck1">
                   Accept our privacy terms.
                 </label>
+                <div className="valid-feedback Valid__Note">
+                  You must accept out privacy terms to signup!
+                </div>
               </div>
               <br />
 

@@ -44,6 +44,9 @@ function Login() {
                   <label className="frol" for="floatingInput">
                     Phone Number
                   </label>
+                  <div className="valid-feedback Valid__Note">
+                    Phone Number Does not exist!
+                  </div>
                 </div>
                 <div className="form-floating  ghshs">
                   <input
@@ -55,6 +58,9 @@ function Login() {
                   <label className="frol" for="floatingPassword">
                     Password
                   </label>
+                  <div className="valid-feedback Valid__Note">
+                    Invalid password!
+                  </div>
                 </div>
               </div>
               <br />

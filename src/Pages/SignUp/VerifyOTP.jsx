@@ -47,6 +47,9 @@ function VerifyOTP() {
                     <label className="frol" for="floatingInput">
                       Enter OTP
                     </label>
+                    <div className="valid-feedback Valid__Note">
+                      Incorrect OTP!
+                    </div>
                   </div>
                 </div>
                 <br />

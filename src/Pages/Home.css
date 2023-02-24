@@ -146,6 +146,12 @@
         font-size: 14px;
         font-weight: 600;
     }
+
+    .Valid__Note{
+        color: rgb(228, 76, 6);
+        font-size: 12px;
+        font-weight: 300;
+    }
     
     /* Responsive layout - for landing page */
     @media screen and (max-width:575.98px) {
