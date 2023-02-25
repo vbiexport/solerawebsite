@@ -1,12 +1,20 @@
 .Logo__Container{
-    width: 200px;
-    height: 100px;
+    width: 180px;
+    height: 40px;
 
 }
 
-.Clique24__Logo{
-    width: 200px;
-    height: 1000px;
+.Clique24__Loog{
+    width: 180px;
+    height: 40px;
+  }
+
+.UserNavCont{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .Login__Btn{
@@ -87,20 +95,7 @@
     justify-content: space-between;
 }
 
-.Clique24{
-    text-decoration: none;
-    font-size: 20px;
-    font-family: "Comfortaa", cursive;
-    font-weight: bold;
-    color: black;
-   
-  }
-  .Clique24__24 {
-    font-family: "Comfortaa", cursive;
-    color: gray;
-    text-decoration: none;
-    font-weight: bold;
-  }
+
 
 
 .sss{

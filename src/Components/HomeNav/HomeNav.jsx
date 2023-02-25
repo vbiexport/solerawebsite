@@ -7,6 +7,7 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Clique24Logo from "../Clique24Logo/Clique24Logo";
 
 function HomeNav() {
   return (
@@ -19,12 +20,7 @@ function HomeNav() {
       >
         <Container fluid className="Nav__Container ">
           <Nav>
-            <Navbar.Brand href="#">
-              <b className="Clique24">
-                clique
-                <b className="Clique24__24 ">24</b>
-              </b>
-            </Navbar.Brand>
+            <Clique24Logo />
           </Nav>
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
