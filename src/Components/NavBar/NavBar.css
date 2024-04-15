@@ -1,0 +1,209 @@
+.Solera-Logo{
+        width: 150px;
+        height: 80px;
+      }
+.SoleraSticky{
+
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        z-index: 99999;
+        background-color: #0A235B;
+}
+
+.NavBarContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+       
+       
+        
+           
+
+}
+
+.NavList1{
+        display: flex;
+        align-items: center;
+        gap: 1.9rem;
+
+       
+
+}
+.NavList{
+        
+        font-family: 'Urbanist', sans-serif;
+        font-size: 14px !important;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: rgb(202, 202, 202);
+
+}
+.NavList:hover{
+       
+        
+        font-family: 'Urbanist', sans-serif;
+        font-size: 14px !important;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: gray;
+
+}
+.ClickLink{
+        text-decoration: none;
+        color: rgb(202, 202, 202);
+        cursor: pointer;
+        font-size: 14px !important;
+        position: relative;
+        text-decoration: none;
+        padding: 10px 0px;
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 600;
+        background: none;
+        border: none;
+ 
+      }
+
+      .ClickLink2{
+        text-decoration: none;
+         color: #0A235B;
+        cursor: pointer;
+        font-size: 14px !important;
+        position: relative;
+        text-decoration: none;
+        padding: 10px 0px;
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 600;
+ 
+      }
+      .Footerx{
+        text-decoration: none;
+        color: #0A235B;
+        font-size: 14px !important;
+        position: relative;
+        text-decoration: none;
+        padding: 10px 0px;
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 600;
+ 
+      }
+      
+
+.SignUpAndLoginContianer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+
+}
+
+
+      
+.NavBarWrapper{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        height: 80px;
+}
+
+
+.DrawerList{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-bottom: 30px;
+}
+
+
+
+      .ClickLink:hover{
+        text-decoration: none;
+        color: rgb(202, 202, 202);
+        cursor: pointer;
+        font-size: 14px !important;
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 600;
+      
+      }
+      
+      
+      
+      .ClickLink::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        border-radius: 4px;
+        background-color:  rgb(202, 202, 202);
+        bottom: 0;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+        
+      }
+      
+      .ClickLink:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+      }
+
+     
+
+
+      .CleeQ__Link{
+        text-decoration: none;
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        color: #183153;
+        letter-spacing: 0.5px;
+      }
+      .CleeQ__Link:hover{
+        text-decoration: none;
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        color: #183153;
+        letter-spacing: 0.5px;
+      }
+      /* .DemoBTN{
+        color: #0A235B;;
+        border-radius: 50px;
+        background: none;
+        background-color: rgb(202, 202, 202);
+        border: none;
+        padding: 10px 15px;
+        font-family: 'Urbanist', sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+    
+      } */
+
+      .SignIn-LogIn-Btn{
+        color: #0A235B;;
+        border-radius: 50px;
+        background: none;
+        background-color: rgb(202, 202, 202);
+        border: none;
+        padding: 10px 15px;
+        font-family: 'Urbanist', sans-serif;
+        font-size: 16px;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+      }
+
+      .SignIn-LogIn-Btn:hover{
+        color: rgb(202, 202, 202);
+        border-radius: 50px;
+        background: none;
+        background-color:#0A235B; 
+        border: none;
+        padding: 10px 15px;
+        font-family: 'Urbanist', sans-serif;
+        font-size: 16px;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+      }

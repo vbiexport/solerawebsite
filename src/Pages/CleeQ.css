@@ -1,0 +1,2242 @@
+.sectioncont{
+  margin-top: 100px;
+
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333; /* Adjust background color as needed */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff; /* Adjust text color as needed */
+  text-decoration: none;
+}
+.SoleraBody{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #0A235B;
+  height: 100%;
+  
+}
+
+.SoleraBody1{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100%;
+}
+.SoleraBody3{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100%;
+}
+.SoleraBody4{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #0A235B;
+  height: 100%;
+}
+.SoleraBody6{
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(241, 241, 241); */
+  height: 100%;
+}
+.SoleraBody5{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #CACACA;
+  height: 100%;
+}
+
+.LandImg02{
+  width: 100%;
+  max-width: 100%;
+  /* height: 350px; */
+}
+
+  .ContactUsInput{
+    width: 100%;
+    max-width: 100%;
+    /* height: 350px; */
+    /* background-color: gray; */
+    /* margin-top: 50px; */
+    
+    }
+    
+    
+  
+  
+
+.MoreNote{
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+  max-width: 700px;
+  width: 700px;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+ 
+}
+.SoleraModalBody{
+  z-index: 999999;
+}
+
+.DemoRequest{
+  margin-top: 30px;
+  
+  }
+  /* .DemoRequest2{
+    margin-top: 0px;
+    
+    }
+   */
+
+  .DemoBTN{
+    color: #0A235B;
+    border-radius: 50px;
+    background: none;
+    background-color: rgb(202, 202, 202);
+    border: none;
+    padding: 10px 15px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+
+  }
+
+  .textInputForm{
+    height: 60px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+  }
+
+  .DemoBTN2{
+    color: rgb(202, 202, 202);
+    border-radius: 50px;
+    background: none;
+    background-color:  #0A235B;
+    border: none;
+    padding: 10px 15px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+
+  }
+
+  .Solera-Settings-Header{
+    color: #0A235B;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+
+  }
+
+  .Solera-Settings-Note{
+    color: black;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+
+  }
+
+  .Solera__Cont{
+    display: flex;
+    justify-content: end;
+  }
+.LandingCont{
+  margin-top: 50px;
+
+  }
+
+  .ClientBox{
+    margin-top: 30px;
+  }
+.ClientLogo{
+  width: 130px;
+  height: 60px;
+}
+  .LandingContOthers{
+    margin-top: 150px;
+    }
+    .AboutUsLanding{
+      margin-top: 30px;
+      }
+    .LandingContFeedback{
+      margin-top: 100px;
+      }
+
+    .ContactContOthers{
+      margin-top: 0px;
+      }
+    
+  
+.LandingWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+  
+  
+  }
+
+  .SoleraLandingWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    
+    
+    }
+
+    .FooterNav{
+      color: #0A235B;
+      font-family: 'Urbanist', sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+
+    }
+.FooterNote{
+      color: #0A235B;
+      font-family: 'Urbanist', sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+
+}
+
+.ImgeContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+    .FoterContainer{
+  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      color: white;
+      font-family: 'Urbanist', sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+    }
+
+    .FooterLinks{
+      color: gray;
+      font-family: 'Urbanist', sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+
+    }
+.SoleraLandingImg{
+  width: 100%;
+  height: 450px;
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  
+  }
+  
+.LandingContainer{
+max-width: 100%;
+width: 80%;
+height: 650px;
+border-radius: 10px 0px 0px 10px;
+padding: 170px 60px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+
+
+}
+.LandingContainer44{
+  max-width: 100%;
+  width: 80%;
+  height: 650px;
+  border-radius: 10px 0px 0px 10px;
+  padding: 70px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  
+  
+  }
+
+.ContactUsContainer{
+  max-width: 100%;
+  width: 80%;
+  height: 650px;
+  border-radius: 10px 0px 0px 10px;
+  padding: 170px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: green;
+  
+  
+  }
+
+  /* Dropdown Button */
+.dropbtn {
+  background-color: none;
+  background: none;
+  color: rgb(202, 202, 202);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 560px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: gray;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #0A235B;
+      color: gray;
+      font-family: 'Urbanist', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: none;
+}
+
+  .ContactUsWrapper{
+    max-width: 100%;
+    width: 80%;
+    padding: 220px 60px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    /* background-color: green; */
+    
+    
+    }
+
+.soleraBoxIcon{
+  font-size: 45px;
+  color: #183153;
+  margin-bottom: 20px;
+}
+
+.soleraBox{
+  height: 400px;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.SolersFeaturesHeading{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #183153;
+
+}
+
+.soleraBoxHeading{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #183153;
+  margin-bottom: 20px;
+
+}
+
+.Sectioncontainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.LandingCoverUp{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+  }
+
+  .LandingCoverUp20{
+   margin-bottom: 20px;
+    
+    }
+  /* .LandingCoverUp2{
+    display: flex;
+    flex-direction: column;
+   
+    
+    }
+   */
+.LandingHedings1{
+  
+font-size: 45px !important;
+font-weight: 900;
+letter-spacing: 0.5px;
+color: rgb(202, 202, 202);
+font-style: normal;
+font-family: "Nunito", sans-serif;
+
+}
+
+.LandingHedings10{
+  
+  font-size: 30px !important;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  color: rgb(202, 202, 202);
+  font-style: normal;
+  font-family: "Nunito", sans-serif;
+  
+  }
+.LandingHedings101{
+  
+  font-size: 45px !important;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  color: #0A235B;
+  font-style: normal;
+  font-family: "Nunito", sans-serif;
+  
+  }
+.ContactTittle{
+  
+  font-size: 45px !important;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  color: #0A235B;
+  font-style: normal;
+  font-family: "Nunito", sans-serif;
+  
+  }
+
+.SoleraIntro{
+  color: gray;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.SoleraIntro1{
+  color: #0A235B;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.SoleraIntro11{
+  color: #0A235B;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.SoleraIntro22{
+  color: #0A235B;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.Tittle{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #183153;
+  line-height: 25px;
+
+}
+
+.CleeQFooter{
+  margin-top: auto;
+}
+
+.CleeQLanding{
+  margin-top: 180px;
+}
+
+
+.CleeQLanding2{
+  margin-top: 50px;
+ 
+}
+.CleeQBody2 {
+  background-color: tan;
+  color: black;
+}
+
+.WriteUpWrapper{
+  padding: 30px 110px 30px 0px;
+ 
+
+}
+
+.CleeQSlogan{
+  font-size: 20px !important;
+  font-family: 'Urbanist', sans-serif;
+  color: #183153;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 50px;
+}
+
+
+
+.SearchContainer{
+margin: 0 auto;
+max-width: 500px;
+width: 500px;
+/* background-color: red; */
+
+}
+
+.InputCasing{
+background-color: rgb(248, 248, 248);
+border-radius: 50px;
+padding: 20px;
+}
+
+.InputSearch{
+outline: none;
+border: none;
+width: 100%;
+font-family: 'Urbanist', sans-serif;
+font-size: 16px;
+font-weight: 500;
+height: 30px;
+background-color: rgb(248, 248, 248);
+}
+.InputSearch:focus{
+outline: none;
+}
+
+.Searchbtn20{
+width: 100%;
+/* height: 58px; */
+border: none;
+background: none;
+background-color: black;
+color: #FFCA27;
+font-family: 'Urbanist', sans-serif;
+font-size: 15px;
+font-weight: 600;
+padding: 25px;
+letter-spacing: 0.5px;
+
+border-radius: 50px;
+}
+.BlobContainer{
+/* padding: 100px 100px 50px 100px; */
+
+
+}
+.LandsImgContainer{
+width: 100%;
+height: 100%;
+}
+
+
+.LandsImgContainer20{
+width: 350px;
+height: 350px;
+}
+.WorryLap{
+margin-top: 50px;
+}
+
+.WorryLap2{
+margin-top: 50px;
+}
+.WorryCont{
+
+padding: 0px 120px 0px 120px;
+}
+
+.LandingHedings4000{
+position: relative;
+font-family: 'Urbanist', sans-serif;
+font-size: 30px;
+font-weight: 800;
+color: #183153;
+
+
+
+}
+
+.LandingSUB2{
+font-family: 'Urbanist', sans-serif;
+font-size: 30px;
+font-weight: 800;
+letter-spacing: 0.5px;
+color: #FFCA27;
+
+}
+
+.Tittle2{
+font-family: 'Urbanist', sans-serif;
+font-size: 15px;
+font-weight: 500;
+letter-spacing: 0.5px;
+color: #183153;
+line-height:25px;
+
+}
+
+.Worry{
+width:100%;
+height: 500px;
+/* background-color: red; */
+
+}
+
+.LandingHedings101{
+/* max-width: 850px;
+width: 850px; */
+/* background-color: red; */
+/* text-align: center; */
+font-family: 'Urbanist', sans-serif;
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 0.5px;
+color: #183153;
+}
+
+.JoinEasy{
+margin-top: 30px;
+/* margin-bottom: 60px; */
+font-family: 'Urbanist', sans-serif;
+font-size: 20px;
+font-weight: 800;
+color: #FFCA27;
+letter-spacing: 0.5px;
+
+
+}
+
+.HowItWoksLogo{
+/* background-color: #FFCA27; */
+/* align-content: center; */
+width: 150px;
+height: 150px;
+line-height: 150px;
+margin-bottom: 20px;
+border-radius: 50px;
+/* box-shadow: rgba(218, 204, 16, 0.25) 0px 25px 50px -12px;
+background: -webkit-linear-gradient(to right, #ffffff, #FFCA27);    Chrome 10-25, Safari 5.1-6
+background: linear-gradient(to left, #ffffff, #FFCA27);             W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+*/
+background-size: cover;
+background-position: center center;
+background-repeat: repeat;
+background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M801 649.5Q799 799 649.5 886t-266-33Q267 733 221 616.5T209.5 372Q244 244 372 205.5T672.5 161Q845 155 824 327.5t-23 322Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%23FFCA27%22 d=%22M801 649.5Q799 799 649.5 886t-266-33Q267 733 221 616.5T209.5 372Q244 244 372 205.5T672.5 161Q845 155 824 327.5t-23 322Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+
+
+
+}
+
+.StartIcon{
+font-size: 50px !important;
+font-weight: 200px !important;
+color: #183153;
+
+
+}
+
+.HowItWoksSup{
+font-family: 'Urbanist', sans-serif;
+font-size: 13px;
+font-weight: 400;
+color: #183153;
+letter-spacing: 0.5px;
+
+}
+
+.HowItWoksHeadings{
+font-family: 'Urbanist', sans-serif;
+font-size: 20px;
+font-weight: 800;
+color: #183153;
+letter-spacing: 0.5px;
+
+
+
+}
+
+.Dondal{
+display: flex;
+align-items: center;
+justify-content: center;
+/* background-color: blue; */
+}
+
+.Dondal2{
+padding: 70px 30px;
+background-color: #FFCA27;
+max-width: 1200px;
+width: 100%;
+margin-bottom: 250px;
+margin-top: 120px;
+border-radius: 20px;
+/* display: flex; */
+/* justify-content: center; */
+background-image: linear-gradient(to top, #fdae04, #feb50f, #febc17, #ffc31f, #ffca27);
+}
+
+.DesireConatiner{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 3rem;
+
+}
+.DesireC{
+width: 100%;
+}
+
+
+.JSpport2{
+font-family: 'Urbanist', sans-serif;
+font-size: 30px;
+font-weight: 600;
+letter-spacing: 0.5px;
+color: white;
+}
+
+.JSpport{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #183153;
+}
+
+
+.REALCover{
+  position: relative;
+  /* background-color: red; */
+  margin-top: -200px;
+}
+
+.Samples{
+  width: 600px;
+  height: 550px;
+
+}
+
+.Family1{
+  width: 100%;
+  height: 350px;
+  
+
+}
+.PaccDex01{
+  margin-top: 150px;
+
+}
+
+.PaccDex0103{
+  margin-top: 50px;
+
+}
+.PaccDex0102{
+  margin-top: 150px;
+
+}
+
+/* .Calcu{
+  margin-top: 150px;
+
+
+} */
+
+.Calcu{
+  margin-top: 200px;
+  background-color: whitesmoke;
+  padding: 30px;
+
+}
+
+
+.Pasd{
+  background-color: #F8F8F8;
+  height: 250px;
+  border-radius: 20px;
+
+}
+.PacCont{
+  
+  padding: 0px 160px 0px 160px;
+
+ 
+}
+
+
+
+
+
+.CalCont{
+  
+  padding: 0px 180px 0px 180px;
+ 
+}
+
+
+
+
+
+
+
+
+
+.StartBTN1{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  background-color: #FFCA27;
+  padding: 20px 30px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 50px;
+ 
+  /* box-shadow:  20px 20px 60px #bebebe,
+           -20px -20px 60px #ffffff; */
+
+}
+
+.Friends11{
+  width: 100%;
+  height: 350px;
+
+}
+
+
+
+
+.JoinWrapper{
+  margin-top: 30px;
+}
+
+.PackCont10145{
+
+  padding: 10px 10px 10px 10px ;
+  margin-top: 50px;
+  /* background-color: red; */
+
+}
+.InvestCont909{
+  padding: 20px;
+  border-radius: 10px;
+  display:flex;
+  gap: 2rem;
+  align-items: center;
+}
+.JoinTheCleeQImg{
+  /* width: 500px;
+  height: 500px; */
+  /* margin-top: -90px; */
+  border: 3px solid #FFCA27;
+  border-radius: 30px ;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  
+}
+
+.JoinTheCleeQCont{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.JoinTheCleeQHeading{
+  font-family: 'Comforter', cursive;
+  /* font-family: 'Comfortaa', cursive; */
+  font-size: 100px;
+  font-weight: 400;
+  text-align: center;
+  
+}
+.AccIcon1{
+  font-size: 40px !important;
+  color: #fac013;
+  margin-bottom: 20px;
+}
+
+.boxHeading{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #183153;
+
+}
+
+.SuperHeading{
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #FFCA27;
+  letter-spacing: 0.5px;
+    
+}
+.boxSub{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: gray;
+
+}
+
+.JoinCont{
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.JoinCont3{
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+}
+
+.IconCont10{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ */
+
+}
+
+.IconCont1{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f5e6aa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ */
+
+}
+.AccIcon{
+  font-size: 35px !important;
+  color: #fac013;
+  /* margin-bottom: 20px; */
+}
+
+.ACCHeading{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: black;
+
+}
+
+.ACCSub{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: black;
+
+}
+/* .TaskWrapper{
+  padding: 80px 200px 80px 200px ;
+  margin-top: 200px;
+ 
+} */
+
+
+
+.WhyChooseWrapper{
+  margin-bottom: 50px ;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #183153;
+}
+.WhyChooseContainer{
+
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #183153;
+}
+
+
+
+.WhySub{
+
+  font-family: 'Urbanist', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #183153;
+
+}
+.CampaignHeadings1{
+
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #183153;;
+  letter-spacing: 0.5px !important;
+}
+.Tittle40{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #183153;
+  line-height: 25px;
+
+}
+.CleeQBOX{
+  padding-bottom: 10px;
+ 
+}
+
+.CleeQBOX22{
+  padding-bottom: 10px;
+  background-color: #F8F8F8;
+  padding-top: 20px;
+ 
+}
+
+
+
+
+.FindCont{
+  margin-bottom: 70px;
+}
+
+.Back__Ground4{
+background-color: #FFFFFF;
+border-radius: 0px 0px 10px 10px;
+padding: 10px 20px;
+/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*/
+
+
+}
+
+.Package__Indicator{
+display: flex;
+/* flex: end; */
+justify-content: space-between;
+align-items: center;
+font-family: 'Urbanist', sans-serif;
+font-weight: 600;
+font-size: 11px;
+color: gray;
+letter-spacing: 0.5px !important;
+
+
+
+
+} 
+.Package__Details{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+
+
+
+}  
+
+.Package__Img{
+width: 50px;
+height: 50px;
+border: 50%;
+}
+
+.Img__Package{
+width: 50px;
+height: 50px;
+border: 50%;
+cursor: pointer;
+}
+
+.Img__Package:hover{
+width: 50px;
+height: 50px;
+/* border: 50%; */
+/* transform: scale(8.5); */
+cursor: pointer;
+}
+
+.CleeQ__Name{
+ 
+
+max-width: 100%;
+width: 100%;
+}
+
+.UserVerified{
+color:  #ffca27;
+font-size: 14px !important;
+
+}
+
+.C__Name{
+
+font-family: 'Urbanist', sans-serif;
+font-weight: 600;
+font-size: 13px;
+color: black;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap; 
+width: 240px;
+letter-spacing: 0.5px;
+cursor: pointer;
+}
+
+.Username__Amount{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.Username__A{
+font-family: 'Urbanist', sans-serif;
+font-weight: 600;
+font-size: 14px;
+color: gray;
+letter-spacing: 0.5px;
+/* display: flex;
+align-items: center; */
+}
+
+.UsernameCover{
+display: flex;
+align-items: center !important;
+gap: 0.3rem;
+
+}
+
+.User__D{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 20px;
+border-bottom: 1px solid rgb(194, 194, 194);
+padding-bottom: 5px;
+/* background-color: red; */
+height: 30px;
+}
+
+.DonorReturn{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 20px;
+border-bottom: 1px solid rgb(194, 194, 194);
+padding-bottom: 5px;
+/* background-color: red; */
+height: 30px;
+}
+
+
+.DonorAmtRT{
+font-family: 'Urbanist', sans-serif;
+font-weight: 600 !important;
+font-size: 12px !important;
+color: gray;
+letter-spacing: 0.5px !important;
+
+
+}
+
+
+.DonaorProgrssBar{
+background-color: #FFCA27;
+height: 3px;
+
+}
+
+.Donationtime{
+font-family: 'Urbanist', sans-serif;
+font-weight: 600 !important;
+font-size: 10px !important;
+color: gray;
+letter-spacing: 0.5px !important;
+
+
+}
+
+.User__1D1{
+font-family: 'Urbanist', sans-serif;
+font-weight: 600 !important;
+font-size: 11px !important;
+color: black;
+letter-spacing: 0.5px !important;
+
+
+}
+
+
+.Exit__Report__Details{
+  
+height: 20px;
+}
+
+.Exit__Report__Details{
+display: flex;
+justify-content: space-between;
+align-items: center;     
+margin-top: 5px;
+}
+/* .CleeQ__Footer{
+outline: none;
+border: none;
+background-color: #FFCA27;
+font-family: 'Urbanist', sans-serif;
+font-weight: 600 !important;
+font-size: 12px !important;
+letter-spacing: 0.5px !important;
+color: gray;
+border-radius: 50px;
+
+
+}  */
+
+.CleeQDonate{
+outline: none;
+border: none;
+background-color: #FFCA27;
+font-family: 'Urbanist', sans-serif;
+font-weight: 600 !important;
+font-size: 12px !important;
+letter-spacing: 0.5px !important;
+color: gray;
+border-radius: 50px;
+
+}
+
+.Share__Btn{
+outline: none;
+border: none;
+background: none;
+
+}
+
+.Share__Icon{
+
+color:  #ffca27;
+font-size: 20px !important;
+cursor: pointer;
+}
+
+.FooterLogo{
+width: 30px;
+height: 30px;
+}
+.FooterNavLinks{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.FooterWrapper{
+  margin-top: 100px;
+
+
+}
+
+/* .FooterWrapperIcon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+} */
+
+
+/* background-color: rgb(235, 235, 235); */
+/* margin-top: 200px; */
+/* padding: 0px ; */
+/* background-size: 50px 50px; */
+
+/* background-image: -webkit-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -moz-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -ms-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -o-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent); */ 
+
+
+.copyright-text{
+font-family: 'Urbanist', sans-serif;
+font-weight: 600;
+font-size: 12px;
+color: #183153;
+
+letter-spacing: 0.5px;
+}
+
+
+.SignUpAndLoginTray{
+  display: none;
+ }
+
+.PaccDex{
+  margin-top: 80px;
+}
+
+
+
+
+.Friends505{
+ 
+  
+  border: 3px solid #FFCA27;
+  border-radius: 30px ;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; */
+ }
+
+ .DesinCover{
+  /* margin-top: -90px; */
+  /* border: 3px solid #FFCA27; */
+  border-radius: 30px ;
+  position: absolute;
+  /* margin-left: 300px; */
+  margin-top: 230px;
+  height: 400px;
+  width: 300px;
+  background-color:#FFCA27;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-image: linear-gradient(to right top, #f0dea5, #f4da8a, #f7d56d, #fbd04f, #ffca27);
+  z-index: -9999;
+}
+ .LandingHedings505{
+  position: relative;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: #183153;
+  margin-bottom: 30px;
+
+}
+
+.LandingSUB505{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #FFCA27;
+
+}
+
+.CleeQSlogan505{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+
+.PricingSubs{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: gray;
+
+ }
+
+ .PricingSubsHeadings{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: black;
+  max-width: 800px;
+  width: 800px;
+  margin-top: 17px;
+  margin-bottom: 100px;
+
+ }
+ .BorderCover{
+  background-color: #FFCA27;
+  padding: 30px;
+  border-radius: 20px;
+
+}
+.FundPrices{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: black;
+ 
+
+}
+.FundP{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: gray;
+  margin-top: 60px ;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+}
+.FundPrices202{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: gray;
+ 
+
+}
+.JoinMarg{
+  margin-top: 200px;
+}
+
+
+.SearchMarg{
+  margin-top: 100px;
+
+}
+
+.Support101{
+  /* width: 100%; */
+  /* margin-top: -90px; */
+  /* border: 3px solid #FFCA27; */
+  /* border-radius: 30px ; */
+ 
+ }
+
+ .FundingHead{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #183153;
+
+
+}
+
+.FundingSunHead{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  color: #183153;
+  margin-top: 30px;
+
+}
+
+.PackCont808{
+  margin-top: 100px;
+  padding: 80px 200px 80px 200px ;
+
+}
+
+.BTNCont{
+  margin-top: 80px;
+}
+
+.FunContr{
+  margin-top: 50px;
+}
+
+.ImgConTT{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+.WriteUpC{
+  width: 80%;
+ 
+
+}
+.ImgC{
+  width: 100%;
+ 
+}
+
+.ImgFlex{
+  display: flex;
+  justify-content: end;
+
+}
+.Categories{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  color: black;
+  margin-top: 200px;
+
+}
+
+
+
+.CategoriesSub{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  color: black;
+  margin-bottom: 70px;
+}
+
+.CountContainerWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+
+
+}
+
+.CountContainer{
+  width: 100%;
+  height: 300px;
+  background-color: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.CountContainer3{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+
+.TopicHeading{
+  margin-bottom: 30px;
+}
+
+.TopicSub{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  color: gray;
+
+}
+
+.TopicSub20{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  color: black;
+
+}
+
+.OverCont{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  color: black;
+
+}
+
+.OverContBTN{
+  border: none;
+  background: none;
+  background-color: #FFCA27;
+  padding: 5px;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  color: black;
+  width: 100px;
+  border-radius: 10px;
+}
+
+
+.LandingHedings5055{
+  position: relative;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: #183153;
+  /* margin-top: 200px; */
+  margin-bottom: 100px;
+
+}
+
+
+/* NEW CSS */
+
+.PackageWrapper{
+  padding: 0px 120px 0px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+.PackageWrapper02{
+  padding: 0px 120px 0px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+.PackageWrapper022{
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+
+.PackageImg{
+  width: 100%;
+  max-width: 100%;
+  height: 350px;
+  
+  
+
+}
+.PackageWriteUp{
+  max-width: 100%;
+  width: 100%;
+  background-color: #F8F8F8;
+  height: 350px;
+  border-radius: 0px 10px 10px 0px;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*/
+
+
+}
+
+.Servicefee{
+  font-family: 'Urbanist', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  margin-top: 20px;
+
+}
+.PackageWriteUp33{
+  max-width: 100%;
+  width: 100%;
+  background-color: #F8F8F8;
+ 
+  border-radius: 0px 10px 10px 0px;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*/
+
+
+}
+.PricingOpt{
+display: flex;
+align-items: center;
+gap: 1rem;
+
+}
+.checkIcon{
+font-size: 17px;
+color: green;
+}
+.PricingOptGuide{
+background-color: rgb(242, 238, 213);
+height: 30px;
+width: 30px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.PackImg01{
+  width: 100%;
+  height: 350px;
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+  
+
+}
+
+
+
+.StartButton{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  background-color: #FFCA27;
+  /* width: 200px; */
+  padding: 15px 20px;
+  border-radius: 50px;
+  border: none;
+  /* margin-top: 50px; */
+ 
+  /* box-shadow:  20px 20px 60px #bebebe,
+           -20px -20px 60px #ffffff; */
+
+}
+
+.SubHead{
+font-family: 'Urbanist', sans-serif;
+font-size: 15px;
+font-weight: 500;
+letter-spacing: 0.5px;
+color: #183153;
+line-height:25px;
+
+}
+
+.SubHead20{
+font-family: 'Urbanist', sans-serif;
+font-size: 15px;
+font-weight: 600;
+letter-spacing: 0.5px;
+color: #183153;
+line-height:25px;
+
+}
+
+
+.PackageCoverUp{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+
+}
+
+.PackageCoverUp2{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+
+}
+
+
+.PackageWriteUp02{
+  max-width: 100%;
+  width: 100%;
+  background-color: #F8F8F8;
+  height: 350px;
+  border-radius: 10px 0px 10px 10px;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*/
+
+
+
+}
+.PackageWriteUp023{
+max-width: 100%;
+width: 100%;
+background-color: #F8F8F8;
+height: 200px;
+border-radius: 10px 0px 10px 10px;
+padding: 40px 60px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*/
+}
+.PackageWriteUp44{
+max-width: 100%;
+width: 100%;
+
+border-radius: 10px 0px 10px 10px;
+padding: 40px 60px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*/
+}
+.PackImg02{
+width: 100%;
+height: 350px;
+border-radius: 0px 10px 10px 0px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+
+}
+
+
+
+.PackageImg02{
+width: 100%;
+max-width: 100%;
+height: 350px;
+}
+
+.WrapperHeadings{
+margin-bottom: 70px;
+}
+.PackageWrapperHeadings{
+font-family: 'Urbanist', sans-serif;
+font-size: 30px;
+font-weight: 600;
+letter-spacing: 0.5px;
+color: #183153;
+margin-bottom: 10px;
+
+
+}
+.DisplayFundingCover{
+height: 374px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+
+}
+
+.DisplayFundingCover2{
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+
+}
+.PackageWrapSub{
+font-family: 'Urbanist', sans-serif;
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 0.5px;
+color: #183153;
+
+
+
+}
+
+
+
+.Back__Ground40{
+background-color: #FFFFFF;
+border-radius: 0px 0px 10px 10px;
+padding: 10px 20px;
+height: 60%;
+/* max-height: 600px; */
+/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*/
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+
+}
+
+
+.DisplayPictue{
+height: 40%;
+/* max-height: 100%; */
+width: 100%;
+background-color: rgb(157, 158, 157);
+border-radius: 10px 10px 0px 0px;
+
+}    
+.DisplayImg{
+height: 150px;
+width: 100%;
+border-radius: 10px 10px 0px 0px;
+
+
+}
+.DisplayImg3{
+height: 150px;
+width: 100%;
+border-radius: 10px 10px 0px 0px;
+
+
+}
+.PacCont43{
+
+padding: 0px 120px 0px 120px;
+/* background-color: blue; */
+
+}
+
+.WorryLappings{
+margin-top: 200px;
+}
+.TrustCont{
+margin-top: 200px;
+}
+.TrustHeading{
+font-family: 'Urbanist', sans-serif;
+font-size: 50px;
+font-weight: 600;
+letter-spacing: 0.5px;
+color: #183153;
+
+
+}
+
+.PackageWrapSub09{
+font-family: 'Urbanist', sans-serif;
+font-size: 50px;
+font-weight: 600;
+letter-spacing: 0.5px;
+color: #FFCA27;
+
+}
+
+.LDImage{
+width: 100%;
+height: 650px;
+/* border-radius: 10px 0px 0px 10px; */
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.Pix {
+position: relative;
+font-family: Arial;
+margin-top: 100px;
+}
+
+.text-block {
+position: absolute;
+bottom: 200px;
+right: 900px;
+background-color: white;
+width: 450px;
+height: 300px;
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+
+.LandingContainer4{
+max-width: 100%;
+width: 100%;
+background-color: #F8F8F8;
+height: 300px;
+
+border-radius: 10px 0px 0px 10px;
+padding: 40px 60px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*/
+
+
+}
+
+
+
+
+
+
+
+
+
+.LaNdBank{
+position: relative;
+font-size: 50px !important;
+font-weight: 800;
+letter-spacing: 0.5px;
+color: #FFCA27;
+
+
+}
+
+.PackChat20{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 80px 250px 80px 250px ;
+gap: 2rem;
+margin-top: 100px;
+
+
+}
+
+
+
+.ImgChat20{
+/* background-color: green; */
+width: 40%;
+/* background-color: green; */
+margin-top: -120px;
+
+
+}
+.LandingHedings50505{
+position: relative;
+font-family: 'Urbanist', sans-serif;
+font-size: 40px;
+font-weight: 800;
+color: #183153;
+
+}
+
+.LandingSUB505009{
+font-family: 'Urbanist', sans-serif;
+font-size: 40px;
+font-weight: 800;
+letter-spacing: 0.5px;
+color: #FFCA27;
+
+}
+
+.CleeQSlogan505009{
+font-family: 'Urbanist', sans-serif;
+font-size: 17px;
+font-weight: 600;
+letter-spacing: 0.5px;
+margin-bottom: 30px;
+}
+.WriteUpChat009{
+/* background-color: blue;  */
+width: 50%;
+height: 600px;
+
+}
+.Friends5009{
+width: 500px;
+height: 500px;
+/* margin-top: -90px; */
+border: 3px solid #FFCA27;
+border-radius: 30px ;
+
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+/* .DesinCover5656779686{
+border-radius: 30px ;
+margin-left: 150px;
+margin-top: 130px;
+height: 400px;
+width: 300px;
+background-color:#FFCA27;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+background-image: linear-gradient(to right top, #f0dea5, #f4da8a, #f7d56d, #fbd04f, #ffca27);
+
+} */
+
+
+
+
+.PackCont8088{
+
+padding: 80px 200px 80px 200px ;
+/* background-color: red; */
+
+}
+
+.RequestCONT40{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 20px;
+height: 200px;
+background-color: black;
+border-radius: 20px ;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.AccIcon2{
+font-size: 25px !important;
+color: black;
+}
+
+.Iconcover{
+
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: #FFCA27;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.LetterHead2{
+font-family: 'Urbanist', sans-serif;
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 0.5px;
+color: gray;
+}
+
+.LetterSub2{
+font-family: 'Urbanist', sans-serif;
+font-size: 13px;
+font-weight: 600;
+letter-spacing: 0.5px;
+color: white;
+
+}
+
+.IconCont11{
+width: 70px;
+height: 70px;
+border-radius: 50%;
+background-color: #f5e6aa;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+
+.TaskWrapper2{
+padding: 80px 450px 80px 450px ;
+margin-top: 200px;
+background-color: red;
+
+}
+
+.WhyChooseWrapper44{
+margin-bottom: 50px ;
+font-family: 'Urbanist', sans-serif;
+font-size: 20px;
+font-weight: 600;
+color: #183153;
+}
+
+.WhyChooseContainer1{
+
+font-family: 'Urbanist', sans-serif;
+font-size: 20px;
+font-weight: 600;
+color: #183153;
+}
+
+.WhySub1{
+
+font-family: 'Urbanist', sans-serif;
+font-size: 15px;
+font-weight: 600;
+color: #183153;
+
+}
+
+
+.ACCHeading4{
+font-family: 'Urbanist', sans-serif;
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 0.5px;
+color: black;
+
+}
+
+.ACCSub4{
+font-family: 'Urbanist', sans-serif;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 0.5px;
+color: black;
+
+}
