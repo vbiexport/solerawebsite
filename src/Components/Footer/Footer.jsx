@@ -72,7 +72,7 @@ function Footer() {
             <br />
             <div className="FooterNavLinks">
               <div className="Footerx">
-                Send us an email : sales@solera.com 
+                Send us an email : sales@soleramedsolutions.com
               </div>
               {/* <div className="Footerx">
                  +1(456)-789-8999
@@ -80,8 +80,6 @@ function Footer() {
               {/* <div className="Footerx">
               sales@solera.com 
               </div> */}
-
-            
 
               {/* <div className="Footerx">
                 insert Twitter, FB, IG, LinkedIn & YT icons under the slogan
