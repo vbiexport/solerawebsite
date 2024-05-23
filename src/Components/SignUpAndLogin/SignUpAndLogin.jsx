@@ -1,15 +1,12 @@
 import React from "react";
+import DemoBtn from "../DemoBtn";
 
 function SignUpAndLogin() {
   return (
     <div className="SignUpAndLoginContianer">
       <div>
         <div>
-          <button className="SignIn-LogIn-Btn">
-           
-              Login
-           
-          </button>{" "}
+          <DemoBtn/>
         </div>
       </div>
     </div>

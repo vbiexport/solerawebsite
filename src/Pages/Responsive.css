@@ -66,6 +66,11 @@
 
 }
 
+.LandingContainer44{
+  max-width: 100%;
+  width: 100%;
+  padding: 0px;
+  }
 
 .PackageImg{
   width: 100%;
@@ -87,6 +92,30 @@
 
 }
 
+
+.SoleraLandingWrapper{
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  
+  
+  }
+  .ContactUsWrapper{
+    max-width: 100%;
+    width: 100%;
+    padding: 0px;
+    /* padding: 220px 60px; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    /* background-color: green; */
+    
+    
+    }
+    .LandingCoverUp20{
+      margin-bottom: 0px;
+       
+       }
 /* .PackageWrapper02{
   padding: 0px 120px 0px 120px;
   display: flex;

@@ -16,14 +16,16 @@ function OurLanding() {
               </div>
 
               <p className="SoleraIntro">
-                Our innovative medical software will help you boost the
-                efficiency of your day-to-day operations and allow you to access
-                the platform from any device.
+                Experience the future of healthcare with our innovative Med-Tech
+                solutions. We leverage cutting-edge technology to deliver
+                transformative solutions that revolutionize patient care and
+                medical practices, we are committed to creating easier workflow processes in healthcare. Join us in shaping the future
+                of medicine with our innovative Med-Tech solutions
               </p>
             </div>
-            <div className="DemoRequest">
+            {/* <div className="DemoRequest">
               <DemoBtn />
-            </div>
+            </div> */}
           </div>
           <div className="LandImg02">
             <img

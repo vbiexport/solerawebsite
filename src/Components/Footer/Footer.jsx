@@ -64,7 +64,7 @@ function Footer() {
 
             <div className="FooterNavLinks">
               <div className="Footerx">Monday - Friday:</div>
-              <div className="Footerx">9:00AM - 4:30PM</div>{" "}
+              <div className="Footerx">8:00AM - 4:30PM</div>{" "}
             </div>
           </div>
           <div className="col-lg-4">
@@ -72,15 +72,14 @@ function Footer() {
             <br />
             <div className="FooterNavLinks">
               <div className="Footerx">
-                Discovery Mall, Ademola Adetokunbo Crescent, Wuse 2 Abuja Email:
-             
+                Send us an email : sales@solera.com 
               </div>
-              <div className="Footerx">
+              {/* <div className="Footerx">
                  +1(456)-789-8999
-              </div>
-              <div className="Footerx">
+              </div> */}
+              {/* <div className="Footerx">
               sales@solera.com 
-              </div>
+              </div> */}
 
             
 

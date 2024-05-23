@@ -11,15 +11,15 @@ function Pricing() {
             <div className="LandingContainer">
               <div className="LandingCoverUp">
                 <div className="LandingHedings1" data-aos="zoom-in-up">
-                  Affordable pricing. <br />
-                  Request for a quote
+                  Affordable pricing
                 </div>
-
+                <br />
                 <p className="SoleraIntro">
-                  Solera’s solution can be tailored to suit your specific needs.
-                  Click on get quote and fill the form with your requirements,
-                  and our sales support will reach out to provide you with the
-                  needed quote
+                  With transparent pricing structures and flexible payment
+                  options, we strive to make our solutions accessible to
+                  individuals and businesses alike. Whether you're a startup, a
+                  small business, or a large enterprise, our pricing is designed
+                  to accommodate your needs and scale with your growth.
                 </p>
               </div>
               <div className="DemoRequest">
@@ -27,11 +27,28 @@ function Pricing() {
               </div>
             </div>
             <div className="LandImg02">
-              <img
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-6">
+                    <div className=" PricingCont">
+                      <div>Standard</div>
+                      <div className="Pricing-Heading"> Starting from $4,000</div>
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    <div className=" PricingCont">
+                      {" "}
+                      <div>Custom</div>
+                      <div className="Pricing-Heading">Contact us</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* <img
                 src="/assets/solera/pr.png"
                 alt=""
                 className="SoleraLandingImg"
-              />
+              /> */}
             </div>
           </div>
         </div>

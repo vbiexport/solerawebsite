@@ -1,5 +1,12 @@
 import React from "react";
-import { FiCast, FiEdit, FiLifeBuoy, FiThermometer, FiUser } from "react-icons/fi";
+import {
+  FiCast,
+  FiEdit,
+  FiEdit3,
+  FiLifeBuoy,
+  FiThermometer,
+  FiUser,
+} from "react-icons/fi";
 import "../Pages/CleeQ.css";
 import "../Pages/Responsive.css";
 import DemoBtn from "../Components/DemoBtn";
@@ -13,13 +20,14 @@ function Features() {
             <div className="LandingCoverUp">
               <div className="SolersFeaturesHeading">Solera key features</div>
               <div className="LandingHedings1" data-aos="zoom-in-up">
-                Simple & Affordable
+                Easy to use interface, e-Scheduling, and more
               </div>
 
               <p className="SoleraIntro1">
-                Our innovative medical software will help you boost the
-                efficiency of your day-to-day operations and allow you to access
-                the platform from any device.
+                Experience the convenience of our platform's easy-to-use
+                interface and e-Scheduling capabilities. Our intuitive design
+                ensures effortless navigation, allowing users to seamlessly
+                manage appointments and tasks with just a few clicks.
               </p>
             </div>
             <div className="DemoRequest">
@@ -29,11 +37,11 @@ function Features() {
           <div className="LandImg02">
             <div className="container">
               <div className="row g-2">
-                <div className="col-6">
+                <div className="col-lg-6">
                   <div className="soleraBox">
                     <FiUser className="soleraBoxIcon" />
                     <div className="soleraBoxHeading">
-                      User Friendly Interface
+                      Easy to use interface
                     </div>
                     <div className="SoleraIntro11">
                       Its simple and user friendly interfaces, designed by
@@ -44,22 +52,22 @@ function Features() {
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-lg-6">
                   <div className="border bg-light soleraBox">
                     <FiCast className="soleraBoxIcon" />
                     <div className="soleraBoxHeading">e-Scheduling</div>
                     <div className="SoleraIntro11">
                       Advanced scheduling allows healthcare centers to create
-                      automated-workflows startingfroma patient’s check-in,
+                      automated-workflows starting from a patient’s check-in,
                       patient reminders for periodic tests and medications, and
                       tracking of patient’s treatment progress.
                     </div>
                   </div>
                 </div>
 
-                <div className="col-6">
+                <div className="col-lg-6">
                   <div className="border bg-light soleraBox">
-                    <FiEdit  className="soleraBoxIcon" />
+                    <FiEdit className="soleraBoxIcon" />
                     <div className="soleraBoxHeading">
                       e-Prescription & Lab integration
                     </div>
@@ -73,18 +81,16 @@ function Features() {
                     </div>
                   </div>
                 </div>
-                <div className="col-6">
+                <div className="col-lg-6">
                   <div className="soleraBox">
-                    <FiThermometer className="soleraBoxIcon" />
+                    <FiEdit3 className="soleraBoxIcon" />
                     <div className="soleraBoxHeading">
-                      Automated pharmacy systems
+                      Automated reporting system
                     </div>
                     <div className="SoleraIntro11">
                       Easily controls the inventory of the items in your store
                       and automates the processes for dispensing and admistering
                       products.
-
-                     
                     </div>
                   </div>
                 </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import "../Pages/CleeQ.css";
 import "../Pages/Responsive.css";
+import { FiHome } from "react-icons/fi";
+import { FaLaptopMedical, FaUserInjured, FaUserMd, FaUserNurse } from "react-icons/fa";
 
 function FeedBack() {
   return (
@@ -8,51 +10,49 @@ function FeedBack() {
       <div className="SoleraBody6">
         <div className="container LandingContFeedback ">
           <div className="LandingHedings1" data-aos="zoom-in-up">
-            Our clients that trust us
+            Join our community
           </div>
           <div className="container ClientBox p-0">
-            <div className="row">
-              <div className="col-lg-4">
-                <div className="">
-                  <img
-                    src="/assets/solera/nani.png"
-                    alt=""
-                    className="ClientLogo"
-                  />
+            <div className="row g-2">
+              <div className="col-lg-3">
+                <div className="comunity-Package">
+                  <div>
+                    <FaLaptopMedical  className="comunity-Package-Icon" />
+                  </div>
+                  <div>
+                    <div className="Comunity-Count-Heading">Hospitals</div>
+                    <div className="Comunity-Count">300 +</div>
+                  </div>
                 </div>
-                <p className="SoleraIntro22">
-                  Our innovative medical software will help you boost the
-                  efficiency of your day-to-day operations and allow you to
-                  access the platform from any device.
-                </p>
               </div>
-              <div className="col-lg-4">
-                <div className="">
-                  <img
-                    src="/assets/solera/nani.png"
-                    alt=""
-                    className="ClientLogo"
-                  />
+              <div className="col-lg-3">
+                <div className="comunity-Package">
+                  <div>
+                    <FaUserInjured  className="comunity-Package-Icon" />
+                  </div>
+                  <div>
+                    <div className="Comunity-Count-Heading">Patients</div>
+                    <div className="Comunity-Count">6000 +</div>
+                  </div>
                 </div>
-                <p className="SoleraIntro22">
-                  Our innovative medical software will help you boost the
-                  efficiency of your day-to-day operations and allow you to
-                  access the platform from any device.
-                </p>
               </div>{" "}
-              <div className="col-lg-4">
-                <div className="">
-                  <img
-                    src="/assets/solera/nani.png"
-                    alt=""
-                    className="ClientLogo"
-                  />
+              <div className="col-lg-3">
+              <div className="comunity-Package">
+                  <div><FaUserMd  className="comunity-Package-Icon"/></div>
+                  <div>
+                    <div className="Comunity-Count-Heading">Doctors</div>
+                    <div className="Comunity-Count">200 +</div>
+                  </div>
                 </div>
-                <p className="SoleraIntro22">
-                  Our innovative medical software will help you boost the
-                  efficiency of your day-to-day operations and allow you to
-                  access the platform from any device.
-                </p>
+              </div>
+              <div className="col-lg-3">
+              <div className="comunity-Package">
+                  <div><FaUserNurse className="comunity-Package-Icon"/></div>
+                  <div>
+                    <div className="Comunity-Count-Heading">Nurses</div>
+                    <div className="Comunity-Count">500 +</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

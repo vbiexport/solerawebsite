@@ -13,9 +13,13 @@ function AmbulanceHailingSystem() {
                 </div>
 
                 <p className="SoleraIntro1">
-                  Our innovative medical software will help you boost the
-                  efficiency of your day-to-day operations and allow you to
-                  access the platform from any device.
+                  Our Ambulance Hailing System app provides real-time tracking
+                  and updates, allowing users to monitor the status of their
+                  ambulance and estimated time of arrival. At the heart of our
+                  Ambulance Hailing System is a commitment to saving lives and
+                  ensuring timely access to critical medical care. Join us in
+                  revolutionizing emergency response and making our communities
+                  safer and healthier."
                 </p>
               </div>
               <div className="DemoRequest">

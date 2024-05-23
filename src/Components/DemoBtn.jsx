@@ -9,11 +9,7 @@ function DemoBtn() {
   return (
     <div>
       <div className="DemoRequest">
-        <button
-          onClick={() => setDemoShow(true)}
-          className="DemoBTN"
-          href="#ContactUs"
-        >
+        <button onClick={() => setDemoShow(true)} className="DemoBTN">
           Request for demo
         </button>
       </div>{" "}
